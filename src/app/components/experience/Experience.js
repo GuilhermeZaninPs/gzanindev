@@ -55,9 +55,6 @@ export default function Experience () {
                         cardWidth={650} 
                         // cardHeight={200} 
                         enableBreakPoint 
-                        slideShow
-                        slideItemDuration={1500}
-                        slideShowType="reveal"
                         verticalBreakPoint={920}
                         theme={{
                             primary: '#d2d3d5',

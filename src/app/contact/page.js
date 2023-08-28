@@ -48,7 +48,7 @@ export default function Page() {
           return alert('Email is required');
         }
         try {
-           const res = await fetch('http://localhost:3000/api/subscribe', { method: 'POST', body: JSON.stringify({ email: emailInput }) });
+           const res = await fetch('/api/subscribe', { method: 'POST', body: JSON.stringify({ email: emailInput }) });
            const data = await res.json();
            if (data.success) {
              alert('Joined successfully.');
@@ -71,14 +71,24 @@ export default function Page() {
                     <div>
                         <h1 className="text-[calc(1.56vw+1.56rem)] lg:text-2.81rem font-bold text-white">Contact</h1>
                     </div>
-                    <div className="w-[40%]">
-                        <form onSubmit={handleFormSubmit} className="flex flex-col" >
-                            {/* <input type="text" className="mt-4 p-2 " placeholder="Your name"></input> */}
+                    {/* <div className="w-[40%]">
+                        <form onSubmit={handleFormSubmit} method='post' className="flex flex-col" >
+                             <input type="text" className="mt-4 p-2 " placeholder="Your name"></input> 
                             <input type="email" className="mt-4 p-2 " placeholder="Your email" value={emailInput} onChange={(e) => {setEmailInput(e.target.value)}}></input>
-                            {/* <input type="text" className="mt-4 p-2 " placeholder="Your phone (optional)"></input> */}
-                            {/* <textarea className="mt-4 h-[30vh] p-2 " placeholder="How can I help you?"></textarea> */}
+                             <input type="text" className="mt-4 p-2 " placeholder="Your phone (optional)"></input> 
+                             <textarea className="mt-4 h-[30vh] p-2 " placeholder="How can I help you?"></textarea> 
                             <button type="submit" className="mt-4 border p-2 text-white">Send</button>
                         </form>
+                    </div> */}
+                    <div className="text-white">
+                        <div className="w-1/4 flex justify-between">
+                            <label>Phone</label>
+                            <span className="text-left">+44 07771621493</span>
+                        </div>
+                        <div className="w-1/4 flex justify-between">
+                            <label>Email</label>
+                            <span className="text-left">guizanin224@gmail.com</span>
+                        </div>
                     </div>
                 </section>                
             <Footer />
