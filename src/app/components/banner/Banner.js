@@ -19,7 +19,7 @@ export default function Banner() {
             <div className="text-white">
               <div>
                 <h3 className=" text-[calc(2.18vw+1.50rem)] lg:text-3.50rem font-bold">
-                  <span>Hi, I'm Guilherme Zanin</span>
+                  <span>Hi, I&apos;m Guilherme Zanin</span>
                 </h3>
               </div>
               <div className="text-[calc(2.08vw+1.40rem)] lg:text-3.75rem text-[#2896df]">

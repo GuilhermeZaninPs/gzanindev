@@ -17,6 +17,7 @@ export default function Page () {
                                 width={300} 
                                 height={500}
                                 className="w-[20vw] md:h-[34vh] md:w-[15vw] mr-[20px]"
+                                alt="Screenshot IASD project"
                             />
                             <div className="pl-10 mt-10">
                                 <h3 className="text-[calc(0.51vw+1rem)] lg:text-1.58rem font-bold ">Volunteer Web Developer</h3>
@@ -37,6 +38,7 @@ export default function Page () {
                                 width={300} 
                                 height={500}
                                 className="w-[20vw] md:h-[34vh] md:w-[15vw] ml-[20px]"
+                                alt="sreenshot Insure project"
                             />
                         </div>
                         <div className="bg-[#2e3032] h-auto text-center px-8 pb-6 flex flex-col items-center md:text-left md:pb-0 md:flex-row md:items-center mt-[20px]">
@@ -45,7 +47,8 @@ export default function Page () {
                                 width={300} 
                                 height={500}
                                 className="w-[20vw] md:h-[34vh] md:w-[15vw] mr-[20px]"
-                            />
+                                alt="screenshot To-do list project"
+/>
                             <div className="pl-10 mt-10">
                                 <h3 className="text-[calc(0.51vw+1rem)] lg:text-1.58rem font-bold ">Web Developer</h3>
                                 <p>Developed and implemented a React-based to-do list web application using React, Reducer, and Local Storage. Designed and integrated front-end functionalities for efficient task management.</p>
