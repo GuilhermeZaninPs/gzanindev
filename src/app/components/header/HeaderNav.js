@@ -49,7 +49,7 @@ export default function HeaderNav() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#212428] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <div className="flex flex-col">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="text-[#2896df] text-[30px] font-bold">GZ DEV</span>
               </a>
               <span className="text-white text-lg">Frontend Developer</span>
@@ -68,25 +68,25 @@ export default function HeaderNav() {
             <div className="-my-6 divide-y divide-gray-500/10 font-merriweather">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   HOME
                 </a>
                 <a
-                  href="#"
+                  href="/projects"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
-                  SKILLS
+                  PROJECTS
                 </a>
                 <a
-                  href="#"
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   ABOUT
                 </a>
                 <a
-                  href="#"
+                  href="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   CONTACT
