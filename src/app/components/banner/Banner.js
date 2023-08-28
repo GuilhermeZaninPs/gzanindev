@@ -65,7 +65,7 @@ export default function Banner() {
             </div>
             <div className="w-[70%] md:w-[40%]">
               <Image
-                src={"/../public/Photo.jpeg"}
+                src={"/Photo.jpeg"}
                 width={400}
                 height={300}
                 layout="fixed"
