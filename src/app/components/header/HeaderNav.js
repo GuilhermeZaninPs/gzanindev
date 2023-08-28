@@ -14,7 +14,7 @@ export default function HeaderNav() {
     <header className="bg-[#212428] text-white border-b-[0.5px] border-slate-700">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 pb-4 pt-2 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1 flex-col">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="text-[#2896df] text-[30px] font-bold hover:text-white transition-all duration-200">GZ DEV</span>
           </a>
           <span className="text-white text-lg">Frontend Developer</span>
